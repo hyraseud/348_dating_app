@@ -1,0 +1,48 @@
+.settings-header {
+    font-size: 40px;
+    color: #604D53 !important;
+    font-family: 'Nue Gothic Round', sans-serif;
+    text-align: left;
+}
+.settings-item {
+    font-family: 'avenir';
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+}
+.settings-container {
+   text-align: left;
+}
+.radio {
+    font-family: 'Nue Gothic Round', sans-serif;
+}
+
+input{
+    display: inline-block;
+   
+}
+
+label {
+    margin-left: 30px;
+    display: inline-block;
+    font-family: 'Nue Gothic Round', sans-serif;
+}
+.textInput {
+    border: none;
+    padding: 5px 10px;
+    margin: 0px 0;
+    width: 40px !important;
+}
+.submit-button {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    font-size: large;
+    background-color: #F25757;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}

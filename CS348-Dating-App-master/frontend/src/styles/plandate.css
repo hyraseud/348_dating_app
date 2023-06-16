@@ -1,0 +1,113 @@
+.signup-header {
+    font-size: 62px;
+    color: #F25757 !important;
+    font-family: 'Nue Gothic Round', sans-serif;
+    text-align: center;
+}
+
+
+.name-header {
+    font-size: 72px;
+    color: #F25757 !important;
+    font-family: 'Nue Gothic Round', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.formBox {
+    padding-top: 5rem
+}
+
+.form {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px #F25757;
+}
+
+.new-row {
+    grid-column-start: 1;
+}
+
+.nameInput {
+    border: none;
+    padding: 12px 20px !important;
+    margin: 8px 8px !important;
+    width: 250px !important;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subheader {
+    font-size: 18px;
+    font-family: 'Nue Gothic Round', sans-serif;
+    font-weight: bold;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+    border-bottom: 2px solid #F25757 !important;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    border: none;
+    outline: 0 none;
+}
+
+.submit-button {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    font-size: large;
+    background-color: #F25757;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #efefef;
+    border-color: #F25757;
+    border: 2px solid;
+    color: #F25757;
+}
+
+.button-bar {
+    margin: 1rem
+}
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    flex: 50%;
+}
+
+.container{
+    display: block;
+    position: relative;
+    text-align: center;
+    float:left;
+    height: auto;
+    width: 600px;
+
+}
+
+.longTextInput {
+    width: 80% !important;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    border: none;
+}

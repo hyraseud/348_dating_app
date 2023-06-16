@@ -1,0 +1,12 @@
+.round2 {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

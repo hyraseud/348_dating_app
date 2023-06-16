@@ -1,0 +1,41 @@
+.main-header {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: #F25757;
+}
+
+html {
+    background-color: #F7F3E3;
+}
+
+.signup-button {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    font-size: large;
+    background-color: #F25757;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #efefef;
+    border-color: #F25757;
+    border: 2px solid;
+    color: #F25757;
+}
+
+.big-header {
+    font-size: 62px;
+    font-family: 'Nue Gothic Round', sans-serif;
+}
+
+.subheader {
+    font-size: 16px;
+    font-family: 'Nue Gothic Round', sans-serif;
+}
